@@ -8,13 +8,14 @@ public interface Repository<ID, E extends Entity<ID>> {
 
     E findOne(ID id);
 
-    //Iterable<E> findAll();
+    Iterable<E> findAll();
 
-    E save(E entity); //throws ValidationException;
+    void add(E entity);
 
     E delete(ID id);
 
-    E update(E entity); //throws ValidationException;
+    public void update(ID id, E car);
+    //E update(E entity) throws ValidationException;
 
     List<E> getAllAsList();
 

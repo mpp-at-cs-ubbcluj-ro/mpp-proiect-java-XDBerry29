@@ -1,0 +1,52 @@
+20 Mar 2023 17:17:15,949 INFO  com.example.concurscopii.repository.db.CopilDbRepository 23 <init> - Initializing CopilDbRepository with properties: {} 
+20 Mar 2023 17:17:15,959 TRACE com.example.concurscopii.repository.db.CopilDbRepository 29 add - Enter saving task com.example.concurscopii.domain.Copil@1cf6d1be 
+20 Mar 2023 17:17:15,959 TRACE com.example.concurscopii.repository.db.JdbcUtils 56 getConnection - Enter
+20 Mar 2023 17:17:15,960 TRACE com.example.concurscopii.repository.db.JdbcUtils 33 getNewConnection - Enter
+20 Mar 2023 17:17:15,961 INFO  com.example.concurscopii.repository.db.JdbcUtils 38 getNewConnection - trying to connect to database ... null
+20 Mar 2023 17:17:15,961 INFO  com.example.concurscopii.repository.db.JdbcUtils 39 getNewConnection - user: null
+20 Mar 2023 17:17:15,962 INFO  com.example.concurscopii.repository.db.JdbcUtils 40 getNewConnection - pass: null
+20 Mar 2023 17:17:15,964 ERROR com.example.concurscopii.repository.db.JdbcUtils 49 getNewConnection - java.sql.SQLException: The url cannot be null
+20 Mar 2023 17:17:15,965 TRACE com.example.concurscopii.repository.db.JdbcUtils 65 getConnection - Exit
+20 Mar 2023 17:18:47,182 INFO  com.example.concurscopii.repository.db.CopilDbRepository 23 <init> - Initializing CopilDbRepository with properties: {} 
+20 Mar 2023 17:18:47,194 TRACE com.example.concurscopii.repository.db.CopilDbRepository 29 add - Enter saving task com.example.concurscopii.domain.Copil@795509d9 
+20 Mar 2023 17:18:47,194 TRACE com.example.concurscopii.repository.db.JdbcUtils 56 getConnection - Enter
+20 Mar 2023 17:18:47,195 TRACE com.example.concurscopii.repository.db.JdbcUtils 33 getNewConnection - Enter
+20 Mar 2023 17:18:47,195 INFO  com.example.concurscopii.repository.db.JdbcUtils 38 getNewConnection - trying to connect to database ... null
+20 Mar 2023 17:18:47,196 INFO  com.example.concurscopii.repository.db.JdbcUtils 39 getNewConnection - user: null
+20 Mar 2023 17:18:47,196 INFO  com.example.concurscopii.repository.db.JdbcUtils 40 getNewConnection - pass: null
+20 Mar 2023 17:18:47,198 ERROR com.example.concurscopii.repository.db.JdbcUtils 49 getNewConnection - java.sql.SQLException: The url cannot be null
+20 Mar 2023 17:18:47,199 TRACE com.example.concurscopii.repository.db.JdbcUtils 65 getConnection - Exit
+20 Mar 2023 17:26:14,371 INFO  com.example.concurscopii.repository.db.CopilDbRepository 23 <init> - Initializing CopilDbRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db} 
+20 Mar 2023 17:26:14,383 TRACE com.example.concurscopii.repository.db.CopilDbRepository 29 add - Enter saving task com.example.concurscopii.domain.Copil@19e4653c 
+20 Mar 2023 17:26:14,384 TRACE com.example.concurscopii.repository.db.JdbcUtils 56 getConnection - Enter
+20 Mar 2023 17:26:14,384 TRACE com.example.concurscopii.repository.db.JdbcUtils 33 getNewConnection - Enter
+20 Mar 2023 17:26:14,385 INFO  com.example.concurscopii.repository.db.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db
+20 Mar 2023 17:26:14,385 INFO  com.example.concurscopii.repository.db.JdbcUtils 39 getNewConnection - user: null
+20 Mar 2023 17:26:14,386 INFO  com.example.concurscopii.repository.db.JdbcUtils 40 getNewConnection - pass: null
+20 Mar 2023 17:26:14,663 TRACE com.example.concurscopii.repository.db.JdbcUtils 65 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10289886)
+20 Mar 2023 17:26:14,673 TRACE com.example.concurscopii.repository.db.CopilDbRepository 35 add - Saved 1 instances
+20 Mar 2023 17:26:14,674 TRACE com.example.concurscopii.repository.db.CopilDbRepository 40 add - Exit
+20 Mar 2023 17:27:19,925 INFO  com.example.concurscopii.repository.db.CopilDbRepository 23 <init> - Initializing CopilDbRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db} 
+20 Mar 2023 17:27:19,935 TRACE com.example.concurscopii.repository.db.CopilDbRepository 29 add - Enter saving task com.example.concurscopii.domain.Copil@19e4653c 
+20 Mar 2023 17:27:19,936 TRACE com.example.concurscopii.repository.db.JdbcUtils 56 getConnection - Enter
+20 Mar 2023 17:27:19,936 TRACE com.example.concurscopii.repository.db.JdbcUtils 33 getNewConnection - Enter
+20 Mar 2023 17:27:19,937 INFO  com.example.concurscopii.repository.db.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db
+20 Mar 2023 17:27:19,937 INFO  com.example.concurscopii.repository.db.JdbcUtils 39 getNewConnection - user: null
+20 Mar 2023 17:27:19,938 INFO  com.example.concurscopii.repository.db.JdbcUtils 40 getNewConnection - pass: null
+20 Mar 2023 17:27:20,228 TRACE com.example.concurscopii.repository.db.JdbcUtils 65 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10289886)
+20 Mar 2023 17:27:20,236 TRACE com.example.concurscopii.repository.db.CopilDbRepository 35 add - Saved 1 instances
+20 Mar 2023 17:27:20,237 TRACE com.example.concurscopii.repository.db.CopilDbRepository 40 add - Exit
+20 Mar 2023 17:30:16,379 INFO  com.example.concurscopii.repository.db.CopilDbRepository 23 <init> - Initializing CopilDbRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db} 
+20 Mar 2023 17:30:16,391 TRACE com.example.concurscopii.repository.db.CopilDbRepository 29 add - Enter saving task com.example.concurscopii.domain.Copil@19e4653c 
+20 Mar 2023 17:30:16,392 TRACE com.example.concurscopii.repository.db.JdbcUtils 56 getConnection - Enter
+20 Mar 2023 17:30:16,392 TRACE com.example.concurscopii.repository.db.JdbcUtils 33 getNewConnection - Enter
+20 Mar 2023 17:30:16,392 INFO  com.example.concurscopii.repository.db.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db
+20 Mar 2023 17:30:16,393 INFO  com.example.concurscopii.repository.db.JdbcUtils 39 getNewConnection - user: null
+20 Mar 2023 17:30:16,394 INFO  com.example.concurscopii.repository.db.JdbcUtils 40 getNewConnection - pass: null
+20 Mar 2023 17:30:16,687 TRACE com.example.concurscopii.repository.db.JdbcUtils 65 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10289886)
+20 Mar 2023 17:30:16,695 TRACE com.example.concurscopii.repository.db.CopilDbRepository 35 add - Saved 1 instances
+20 Mar 2023 17:30:16,696 TRACE com.example.concurscopii.repository.db.CopilDbRepository 40 add - Exit
+03 Apr 2023 00:44:23,333 INFO  com.example.concurscopii.repository.db.OrganizatorDbRepository 23 <init> - Initializing OrganizatorDbRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db} 
+03 Apr 2023 00:44:23,348 INFO  com.example.concurscopii.repository.db.CopilDbRepository 23 <init> - Initializing CopilDbRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db} 
+03 Apr 2023 00:44:23,350 INFO  com.example.concurscopii.repository.db.InscriereDbRepository 23 <init> - Initializing InscriereDbRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db} 
+03 Apr 2023 00:44:23,352 INFO  com.example.concurscopii.repository.db.ProbaDbRepository 23 <init> - Initializing ProbaDbRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\xdber\IdeaProjects\MPP\DataBases\concurscopii.db} 

@@ -1,22 +1,20 @@
 package com.example.concurscopii.domain;
 
-public class Organizator extends Entity<Long>{
-
-    private String username;
+public class Organizator extends Entity<String>{
 
     private String parola;
 
     public Organizator(String username, String parola) {
-        this.username = username;
+        setID(username);
         this.parola = parola;
     }
 
     public String getUsername() {
-        return username;
+        return getID();
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        setID(username);
     }
 
     public String getParola() {
